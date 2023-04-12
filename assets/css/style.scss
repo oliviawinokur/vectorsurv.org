@@ -188,6 +188,10 @@ header.top{
   left: 0;
 }
 
+body {
+  position: absolute;
+ }
+
 .main-nav a{
   display: -webkit-box;
   display: -moz-box;
@@ -276,6 +280,7 @@ footer.bottom{
   left: 0;
   z-index:1;
   position: absolute;
+  
 }
 
 @media (min-width: 2000px) {
