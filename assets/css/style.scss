@@ -709,6 +709,7 @@ section.content .gatsby-highlight + h4::before{
   flex-wrap:wrap;
   position:relative;
   overflow-y: scroll;
+
   // width: calc(100%/3);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -787,7 +788,7 @@ section.content .gatsby-highlight + h4::before{
 // }
 
 .inner1 {
-  // width: 100%;
+  width: 100%;
   flex: 1 0 auto;
   position: relative;
   z-index: 0;
@@ -927,6 +928,12 @@ section.content .gatsby-highlight + h4::before{
   -webkit-align-items: baseline;
 }
 
+.sidebar{
+  position:absolute;
+  right: 0;
+  margin-top:1.5rem;
+}
+
 .sidebar .sidebar-wrap-inner{
   margin-top: 60px;
 }
@@ -1035,6 +1042,7 @@ section.content .gatsby-highlight + h4::before{
 //       border-left:1px solid #ececec;
 //   }
 // }
+
 
 .css-1dgtft4{
   width: 20px;
@@ -1784,7 +1792,15 @@ section.content .gatsby-highlight + h4::before{
   
 }
 
+.breweries > ml > li > div > a.linkclass {
+  margin: auto;
+  color: white;
+  text-align: center;
+  justify-items: center;
+  // font-size: 1.25rem;
+  // font-weight: 600;
 
+}
 
 .padding {
   padding-left:4.5rem;
