@@ -27,7 +27,7 @@ Enter the first and last names of the technician in addition to his/her certific
 
 ## Mix
 
-Creating mixes in the Gateway will allow you to record applications of the specific products and mixes your agency uses regularly.
+Creating mixes in the Gateway allows you to record applications of the specific products and mixes your agency uses regularly.
 ### New Mix
 
 - **Code**: Assign your mix a code that is recognizable and used in your agency; the code can contain letters and numbers, such as “ULV mix 12”.
