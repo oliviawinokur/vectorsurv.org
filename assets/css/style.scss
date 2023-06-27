@@ -1185,6 +1185,7 @@ section.content .gatsby-highlight + h4::before{
 
 .sidebar nav li{
   margin-top: 5px;
+  max-width: 90%;
 }
 
 .css-ts0qly{
@@ -1465,10 +1466,12 @@ section.content .gatsby-highlight + h4::before{
   justify-content: space-evenly;
 }
 
+
+
 .box {
   background-color: white;
   color: #003366;
-  min-width: 450px;
+  min-width: 250px;
   max-width: 550px;
   padding-left:1rem;
   padding-right:1rem;
@@ -1518,6 +1521,13 @@ section.content .gatsby-highlight + h4::before{
   padding-right: 6rem;
 }
 
+@media (max-width: 500px) {
+  .grid-container2 {
+    padding-left: 3rem;
+    padding-right:3rem;
+  }
+}
+
 .box2 {
   color: white;
   // min-width: 500px;
@@ -1552,6 +1562,14 @@ section.content .gatsby-highlight + h4::before{
   padding-right:5rem;
   background-color: white;
 }
+
+@media (max-width: 500px) {
+  .grid-container-full  {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 
 .boxfull {
   background-color: white;
@@ -1595,6 +1613,16 @@ section.content .gatsby-highlight + h4::before{
   margin:auto;
 }
 
+@media (max-width: 500px) {
+  .boxfull2  {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+  flex-wrap:wrap;
+  }
+}
+
+
 .boxfull2 > h2 {
   text-align: center;
   color: #0073e6;
@@ -1611,6 +1639,15 @@ section.content .gatsby-highlight + h4::before{
   background-color: white;
 }
 
+@media (max-width: 500px){
+  .grid-container-3 {
+      padding-right: 2rem;
+      padding-left: 2rem;
+      justify-content: center;
+      background-color: white;
+    }
+  }
+  
 .box3 {
   background-color: white;
   color: #003366;
@@ -1732,6 +1769,42 @@ section.content .gatsby-highlight + h4::before{
   padding-right: 6rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+// @media (min-width: 780px) and (max-width: 1279px) {
+//   .css-breweries {
+ 
+//   }
+// }
+
+@media (max-width: 500px) {
+  .breweries {
+    padding-left: 2rem;
+    padding-right:2rem;
+    max-width:400px;
+    margin-right:0;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .breweries {
+    padding-left: 2rem;
+    padding-right:2rem;
+    max-width:350px;
+    margin-right:0;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 390px) {
+  .breweries {
+    padding-left: 2rem;
+    padding-right:2rem;
+    max-width:325px;
+    margin-right:0;
+    justify-content: center;
+  }
 }
 
 .breweries > ml {
