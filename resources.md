@@ -30,4 +30,3 @@ permalink: /resources/
                     <img src="/assets/images/sample_report.png" alt="Sample report">
             </div>
         </div>
-                    
