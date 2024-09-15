@@ -23,11 +23,10 @@ permalink: /resources/
                         <br> 
                         <b><a href="https://github.com/UCD-DART/R-workshop/tree/main" target="_blank">Github repository</a></b> 
                         <br>
-                        <b><a href="https://github.com/UCD-DART/R-workshop/blob/main/VS_docs.pdf" target="_blank">PDF documentation (also in Zip folder and GitHub repository) </a></b>
+                        <b><a href="https://github.com/UCD-DART/R-workshop/blob/main/documentation.pdf" target="_blank">PDF documentation (also in Zip folder and GitHub repository) </a></b>
                     </p>
             </div>
             <div class="box">
                     <img src="/assets/images/sample_report.png" alt="Sample report">
             </div>
         </div>
-                    
